@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * print_rev - uno reverso
  * @s: string*
@@ -6,16 +7,16 @@
  */
 void print_rev(char *s)
 {
-	int long = 0;
+	int len = 0;
 	int o;
 
 	while (*s != '\0')
 	{
-		long++;
+		leng++;
 		s++;
 	}
 	s--;
-	for (o = long; o > 0; o--)
+	for (o = leng; o > 0; o--)
 	{
 		_putchar(*s);
 		s--;
