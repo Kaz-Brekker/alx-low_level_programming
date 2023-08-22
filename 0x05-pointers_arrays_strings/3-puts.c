@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * _puts - just a string
  * @str: string
