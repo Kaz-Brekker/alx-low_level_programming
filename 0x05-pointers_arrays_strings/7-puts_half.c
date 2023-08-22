@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * puts_half - half of a string
- * 
+ *
  * @str: input
  * Return: half of input
  */
