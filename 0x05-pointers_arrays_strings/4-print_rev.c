@@ -1,22 +1,21 @@
-#include <stdio.h>
-#include <string.h>
+#include "main.h"
 /**
  * print_rev - uno reverso
  * @s: string*
- * Return: as always
+ * Return: 0
  */
 void print_rev(char *s)
 {
-	int len = 0;
+	int longi = 0;
 	int o;
 
 	while (*s != '\0')
 	{
-		leng++;
+		longi++;
 		s++;
 	}
 	s--;
-	for (o = leng; o > 0; o--)
+	for (o = longi; o > 0; o--)
 	{
 		_putchar(*s);
 		s--;
@@ -24,3 +23,4 @@ void print_rev(char *s)
 
 	_putchar('\n');
 }
+
