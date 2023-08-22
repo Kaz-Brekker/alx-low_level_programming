@@ -4,10 +4,6 @@
  * @str: string
  *
  */
-int _putchar(char c)
-{
-	return fwrite(&c, 1,  1, stdout);
-}
 void _puts(char *str)
 {
 	while (*str != '\0')
