@@ -10,6 +10,7 @@ void _puts(char *str)
 	{
 		putchar(*str++);
 		str++;
+
 	}
 
 		putchar('\n');
